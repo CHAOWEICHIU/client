@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import 'root/stylesheets/global.scss';
+
 import { Root } from './root';
 import registerServiceWorker from './registerServiceWorker';
-
-import './root/stylesheets/global.scss';
 
 function render(Component) {
   ReactDOM.render(<Component />, document.getElementById('root'));

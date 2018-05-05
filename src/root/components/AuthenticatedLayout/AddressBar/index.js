@@ -2,8 +2,9 @@ import { compose } from 'recompose';
 import { withRouter } from 'react-router-dom';
 import { withActions, withData } from 'spunky';
 
+import nameServiceActions from 'browser/actions/nameServiceActions';
+
 import AddressBar from './AddressBar';
-import nameServiceActions from '../../../../browser/actions/nameServiceActions';
 
 const mapNameServiceActionsToProps = (actions) => ({
   doQuery: (params) => actions.call(params)

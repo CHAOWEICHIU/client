@@ -1,4 +1,5 @@
-import authActions from '../../login/actions/authActions';
+import authActions from 'login/actions/authActions';
+
 import withProgressChange from '../../shared/hocs/withProgressChange';
 
 export default function withAuthChange(progress, callback) {

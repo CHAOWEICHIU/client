@@ -1,8 +1,9 @@
 import { createActions } from 'spunky';
 import Neon, { api, wallet } from '@cityofzion/neon-js';
 
+import { GAS, NEO } from 'shared/values/assets';
+
 import generateDAppActionId from './generateDAppActionId';
-import { GAS, NEO } from '../../shared/values/assets';
 
 export const ID = 'send';
 
